@@ -1,0 +1,16 @@
+CREATE DATABASE IF NOT EXISTS ESCOLA;
+
+-- 2. Usar o banco de dados ESCOLA
+USE ESCOLA;
+
+-- 3. Criar a tabela ALUNO
+CREATE TABLE IF NOT EXISTS ALUNO (
+    -- 4. Definir os atributos da tabela
+    ID INT AUTO_INCREMENT, -- Identificador único do aluno
+    NOME VARCHAR(100), -- Nome do aluno
+    EMAIL VARCHAR(100), -- Endereço de e-mail do aluno
+    ENDERECO VARCHAR(200), -- Endereço do aluno
+    
+    -- 5. Adicionar a chave primária de nome ID (identificador)
+    PRIMARY KEY (ID)
+);
