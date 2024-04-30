@@ -1,3 +1,4 @@
+-- 1. Criar o banco de dados ESCOLA
 CREATE DATABASE IF NOT EXISTS ESCOLA;
 
 -- 2. Usar o banco de dados ESCOLA
